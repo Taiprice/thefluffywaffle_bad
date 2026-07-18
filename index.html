@@ -37,9 +37,13 @@ body{
 /* Home page: exact-fit hero, no page scroll */
 body.home-page{
   height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+}
+body.home-page .site-nav{
+  flex-shrink: 0;
 }
 body.home-page .hero-frame{
   flex: 1;
